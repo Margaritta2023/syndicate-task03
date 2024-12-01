@@ -33,6 +33,7 @@
       "/hello": {
         "GET": {
           "lambda_function": "hello_world",
+          "integration": "lambda_proxy",
           "request": {},
           "response": {
             "statusCode": 200,
